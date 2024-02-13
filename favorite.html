@@ -1,73 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Quire's favorite webpage">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/favorite.css">
-    <title>Favorite notes</title>
 
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-YWPH33ZZLC"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Quire's favorite webpage">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/favorite.css">
+  <title>Favorite notes</title>
 
-      gtag("config", "G-YWPH33ZZLC", { debug_mode: true });
-    </script>
-  </head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YWPH33ZZLC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-  <body id="modalWindowAttacher">
-    <main>
-      <nav class="side">
-        <div class="logo-div">
-          <a href="index.html" class="logo fa-brands fa-quora"></a>
-        </div>
-        <a
-          href="search.html"
-          class="menu-icon fa-solid fa-magnifying-glass"
-        ></a>
-        <a class="menu-icon fa-solid fa-star active-icon"></a>
-        <a class="menu-icon fa-solid fa-chart-column"></a>
-        <a href="./settings.html" class="menu-icon fa-solid fa-gear"></a>
-        <a class="menu-icon fa-solid fa-question"></a>
-      </nav>
+    gtag("config", "G-YWPH33ZZLC", { 'debug_mode': true });
+  </script>
+</head>
+
+<body id="modalWindowAttacher">
+  <main>
+    <nav class="side">
+      <div class="logo-div">
+        <a href="index.html" class="logo fa-brands fa-quora"></a>
+      </div>
+      <a href="search.html" class="menu-icon fa-solid fa-magnifying-glass"></a>
+      <a class="menu-icon fa-solid fa-star active-icon"></a>
+      <a class="menu-icon fa-solid fa-chart-column"></a>
+      <a href="./settings.html" class="menu-icon fa-solid fa-gear"></a>
+      <a class="menu-icon fa-solid fa-question"></a>
+    </nav>
 
 
-        <aside id="noteList">
-            <h6 style="display: none">Notes</h6>
-        </aside>
+    <aside id="noteList">
+      <h6 style="display: none">Notes</h6>
+    </aside>
 
 
-      <section id="resultWrapper">
-        <div id="demo">
-          <h1 id="demoTitle">Title</h1>
-          <p id="demoText">Content</p>
-        </div>
-      </section>
-    </main>
-    <div id="navButton">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
+    <section id="resultWrapper">
+      <div id="demo">
+        <h1 id="demoTitle">Title</h1>
+        <p id="demoText">Content</p>
+      </div>
+    </section>
+  </main>
+  <div id="navButton">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
 
-    <script
-      src="https://kit.fontawesome.com/dfb17be9bd.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/modalWindow.js"></script>
-    <script src="js/favorite.js"></script>
+  <script src="https://kit.fontawesome.com/dfb17be9bd.js" crossorigin="anonymous"></script>
+  <script src="js/modalWindow.js"></script>
+  <script src="js/favorite.js"></script>
 
-    <script src="js/googleAnalytics.js"></script>
+  <script src="js/googleAnalytics.js"></script>
 </body>
 
 </html>
-
