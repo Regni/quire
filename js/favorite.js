@@ -21,7 +21,7 @@ if(allNotes !== null){
             let newNote = `
             <div class="note" id="${note.id}">
                 <b class='star' onclick='favToggle(${note.id})'><i class="fas fa-star"></i></b>
-                <a class='deleteNote' onclick='deleteNote(${note.id})'><i class="fas fa-trash-alt"></i></a>
+                <p class='deleteNote' onclick='deleteNote(${note.id})'><i class="fas fa-trash-alt"></i></p>
                 <h3>${note.title}</h3>
                 <div class='content' id="${note.id}Text">${note.content}</div>
                 <p class='noteDate'>Created: ${note.savedDate}<br>Last edited: ${note.editedDate}</p>
