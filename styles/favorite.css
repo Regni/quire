@@ -96,4 +96,8 @@
         display: none;
     }
 
+    #resultWrapper *{
+        box-shadow: none;
+    }
+
 }

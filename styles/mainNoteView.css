@@ -139,14 +139,10 @@
   
     .title-section, 
     #note-field,
-    .mainText{
+    .mainText *{
       min-width: 100%;
       border: none;
-    }
-
-    .note-section{
-      border-style: none;
-      border: none;
+      box-shadow: none;
     }
   
     .side,
