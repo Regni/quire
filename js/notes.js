@@ -232,6 +232,7 @@ function viewItem(){
   title.style.border = 'none';
   document.getElementById('save-notes').classList.add("hide-btn");
   document.querySelector('.toolbar').classList.remove('showToolbar');
+  document.querySelector('.printButton').style.display = 'flex';
 }
 
 if(localStorage.updateNote != undefined)
@@ -244,6 +245,7 @@ function addOrEditMode(){
   title.style.border = 'solid 2px #aaa';
   document.getElementById('save-notes').classList.remove("hide-btn");
   document.querySelector('.toolbar').classList.add('showToolbar');
+  document.querySelector('.printButton').style.display = 'none';
 }
 
 function setNewObject(){
